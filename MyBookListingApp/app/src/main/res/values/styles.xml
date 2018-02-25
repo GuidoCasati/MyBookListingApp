@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorAccent">@color/highlight</item>
+    </style>
+
+    <style name="list">
+        <item name="android:paddingBottom">@dimen/margin_small</item>
+        <item name="android:paddingTop">@dimen/margin_small</item>
+        <item name="android:layout_height">?android:attr/listPreferredItemHeightLarge</item>
+    </style>
+
+    <style name="view">
+        <item name="android:layout_marginBottom">@dimen/margin_small</item>
+        <item name="android:layout_marginLeft">@dimen/standard</item>
+        <item name="android:layout_marginRight">@dimen/standard</item>
+    </style>
+</resources>
